@@ -1,0 +1,30 @@
+.toy-list ul {
+    width: 300px;
+    min-width: fit-content;
+}
+
+.toy-list ul li {
+    padding: 10px;
+    border-block-end: solid 1px lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toy-list ul li article {
+    display: inline;
+    cursor: pointer;
+}
+
+.toy-list ul li article.done {
+    text-decoration: line-through;
+}
+
+.toy-list ul li article.active {
+    text-decoration: none;
+}
+
+.toy-list ul li div,
+.toy-list ul li div span {
+    color:var(--clr-bg)
+}

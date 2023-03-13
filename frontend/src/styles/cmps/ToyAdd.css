@@ -1,0 +1,18 @@
+.add-toy form{
+    margin-block-start: 20px;
+    width: 300px;
+}
+
+.add-toy input {
+    padding: 5px;
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.add-toy button {
+    width:30px;
+    height:30px;
+    font-size: 1rem;
+    border-radius: 50%;
+    box-shadow: none;
+}
